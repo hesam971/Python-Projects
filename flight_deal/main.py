@@ -4,7 +4,7 @@
 #     "apikey": ""
 # }
 #
-# sheety_response = requests.get("https://api.sheety.co/fdca502fdefcff932197c95c799bdec5/flightDeals/prices")
+# sheety_response = requests.get("")
 # for i in range(0, len(sheety_response.json()["prices"])):
 #     info = {
 #         "term": f"{sheety_response.json()['prices'][i]['city']}"
