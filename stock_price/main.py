@@ -5,14 +5,14 @@ from twilio.rest import Client
 now = dt.datetime.now()
 # Find your Account SID and Auth Token in Account Info and set the environment variables.
 # See http://twil.io/secure
-account_sid = 'AC65b7a97f9aa3788ca9039e8ef8c96fb8'
-auth_token = '6960b5c53ffbd508cecc121e5d1c2a1b'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 # get API info for stock price
-STOCK_NAME = "TSLA"
-COMPANY_NAME = "Tesla Inc"
-key_api_stock = "XCF70Y8K36VZYM05"
-stock_url = "https://www.alphavantage.co/query"
+STOCK_NAME = ""
+COMPANY_NAME = ""
+key_api_stock = ""
+stock_url = ""
 stock_params = {
     "function": "TIME_SERIES_INTRADAY",
     "symbol": STOCK_NAME,
@@ -20,13 +20,13 @@ stock_params = {
     "apikey": key_api_stock,
 }
 # get API info for news
-key_api_news = "091d2c41f7504b9e8481e714cf4bda6b"
+key_api_news = ""
 news_params = {
     "q": STOCK_NAME,
     "apiKey": key_api_news
 }
 # fetch info for yesterday in different hours for stock price
-response = requests.get(f"https://newsapi.org/v2/everything", params=news_params)
+response = requests.get(f"", params=news_params)
 r = requests.get(stock_url, params=stock_params)
 data = r.json()['Time Series (60min)']
 item_data = data.items()

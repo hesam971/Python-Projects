@@ -10,13 +10,13 @@ weather_params = {
     "appid": my_api,
 }
 
-account_sid = "AC65b7a97f9aa3788ca9039e8ef8c96fb8"
-auth_token = "6960b5c53ffbd508cecc121e5d1c2a1b"
+account_sid = ""
+auth_token = ""
 
 
 is_rainy = False
 
-response = requests.get("https://api.openweathermap.org/data/2.5/forecast?lat=43.214050&lon=27.914734&appid=235691c7af2170ecf87e746a7d7504c5")
+response = requests.get("")
 for i in range(0, len(response.json()['list'])):
     if int(response.json()['list'][i]["weather"][0]["id"]) < 700:
         is_rainy = True

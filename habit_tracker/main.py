@@ -1,8 +1,8 @@
 import requests
 import datetime as dt
-TOKEN = "-my1370habit1991tracker"
-USERNAME = "hesam971"
-GRAPH_ID = "heso971"
+TOKEN = ""
+USERNAME = ""
+GRAPH_ID = ""
 GRAPH_NAME = "habit_tracker_for_bicycle"
 # create user page in webpage
 create_user = "https://pixe.la/v1/users"

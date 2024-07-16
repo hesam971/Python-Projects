@@ -7,7 +7,7 @@ dic = {
     "type": "boolean"
 }
 
-response = requests.get("https://opentdb.com/api.php", params=dic)
+response = requests.get("", params=dic)
 json_answer = response.json()["results"]
 all_question = [(html.unescape(json_answer[i]["question"]), json_answer[i]["correct_answer"]) for i in
                 range(0, len(json_answer))]

@@ -5,11 +5,11 @@ now = dt.datetime.now()
 today_date = now.strftime("%Y/%m/%d")
 today_time = now.strftime("%H:%M:%S")
 
-APP_ID = "ab36bf95"
-API_KEY = "62b4f5eda3c67bcb1687bab3273ae05b"
+APP_ID = ""
+API_KEY = ""
 
-exercise_url = "https://trackapi.nutritionix.com/v2/natural/exercise"
-sheety_url = "https://api.sheety.co/fdca502fdefcff932197c95c799bdec5/workouts/workouts"
+exercise_url = ""
+sheety_url = ""
 
 
 json_params = {

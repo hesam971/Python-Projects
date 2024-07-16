@@ -5,9 +5,9 @@ from spotipy.oauth2 import SpotifyOAuth
 import sys
 import pprint
 
-CLIENT_ID = "a351ef36d88e49f1a02fb95dba64f5b8"
-CLIENT_SECRET = "6f0163702c6d41819877e526601b2586"
-REDIRECT_UNI = "http://example.com"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+REDIRECT_UNI = ""
 
 # response = requests.get("https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/")
 #
