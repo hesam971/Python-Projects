@@ -1,7 +1,7 @@
 # import requests
 #
 # headers = {
-#     "apikey": "cnWkfvgHSdpTkd9Wkyia7BfkhT14mLgn"
+#     "apikey": ""
 # }
 #
 # sheety_response = requests.get("https://api.sheety.co/fdca502fdefcff932197c95c799bdec5/flightDeals/prices")
