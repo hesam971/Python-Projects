@@ -26,8 +26,8 @@ if is_rainy:
     message = client.messages \
         .create(
         body="Today is rainy",
-        from_='+16402237067',
-        to='+4917664982537'
+        from_='',
+        to=''
     )
     print(message.status)
     print(message.sid)
